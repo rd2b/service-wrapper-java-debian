@@ -1,0 +1,43 @@
+service-wrapper-java (3.5.3-4) unstable; urgency=low
+
+  * Fix binary-arch build (Closes: #666309)
+  * Update Format in d/copyright.
+  * Add patch for --as-needed linker option (Closes: #647355)
+    - Thanks to Ilya Barygin <randomaction@ubuntu.com>
+  * Bump Standards-Version to 3.9.3 (no changes).
+
+ -- tony mancill <tmancill@debian.org>  Sun, 01 Apr 2012 17:12:42 -0700
+
+service-wrapper-java (3.5.3-3) unstable; urgency=low
+
+  * Set distribution to unstable.
+  * Bump standard versions to 3.9.2 (no changes needed)
+  * Add build-wrapper-scripts and example wrapper.conf (Closes: #621914)
+    - Thanks to Ximim Luo
+  * Add Vcs-Git: and Vcs-Browser: fields to debian/control.
+  * Remove deprecated build-dep on default-jdk-builddep
+  * Remove deprecated JRE/JDK dependency from libservice-wrapper-java
+  * Update debian/copyright to DEP5.  Fully quote the upstream license.
+
+ -- tony mancill <tmancill@debian.org>  Sun, 02 Oct 2011 21:34:57 -0700
+
+service-wrapper-java (3.5.3-2) experimental; urgency=low
+
+  [ Rémi Debay ]
+  * Moving jni library to /usr/lib/jni.
+  * Changing standards version to 3.9.1.
+  * split the package on 3 packages.
+  * Adding manpage for wrapper.
+  * Imporving building for archs specifics packages.
+
+  [ tony mancill ]
+  * Add myself to Uploaders in debian/control.
+  * Set distribution to experimental for upload during freeze.
+
+ -- tony mancill <tmancill@debian.org>  Sat, 21 Aug 2010 13:37:08 -0700
+
+service-wrapper-java (3.5.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #591758)
+
+ -- Rémi Debay <debay.remi@gmail.com>  Wed, 04 Aug 2010 17:31:56 +0200
