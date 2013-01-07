@@ -108,7 +108,7 @@ License: wrapper-community-license-1.1
  
  
 Files: debian/*
-Copyright: 2010-2011 Rémi Debay <debay.remi@gmail.com>
+Copyright: 2010-2013 Rémi Debay <debay.remi@gmail.com>
            2011-2012 tony mancill <tmancill@debian.org>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
